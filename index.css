@@ -1,0 +1,43 @@
+#top_page {
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(192, 128, 128);
+}
+
+
+
+
+body {
+
+    /* background-image: url(image/background-bakery.jpg); */
+
+    background-color: #f6dec2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 500;
+
+
+}
+
+.links:hover {
+    color: rgb(26, 109, 50);
+}
+
+.links:link {
+    color: red;
+}
+
+.link:active {
+    color: green;
+    background-color: aquamarine;
+}
+
+.link:visited {
+
+    color: rgb(204, 230, 56)
+}
+
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

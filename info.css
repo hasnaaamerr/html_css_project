@@ -1,0 +1,106 @@
+body {
+
+
+    background-color: #f6dec2;
+
+
+}
+
+#submit {
+    background-color: rgb(5, 135, 70);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 10px;
+
+    margin: auto;
+}
+
+
+#comments {
+    background-color: hsla(72, 18%, 56%, 0.203);
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+h1 {
+    background-color: hsla(35, 86%, 30%, 0.605);
+    border-color: blanchedalmond;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 5px 2px 7px rgb(241, 197, 197);
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+form {
+
+    /* background-color: hsla(0, 53%, 88%, 0.3); */
+    margin: auto auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+
+
+}
+
+div form input:invalid {
+    border-color: rgb(100, 2, 2);
+}
+
+
+.input {
+    border-color: black;
+    border-style: solid;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.input:invalid {
+    background-color: rgb(235, 154, 150);
+}
+
+.input:valid {
+    background-color: rgb(191, 245, 227);
+}
+
+#submit:valid {
+
+    background-color: rgb(41, 146, 86);
+}
+
+
+#submit:invalid {
+    background-color: red;
+    border-color: red;
+
+}
+
+/* #male:invalid {
+    border: red;
+    color: red;
+    background-color: red;
+} */
+
+#reset {
+    background-color: rgb(5, 135, 70);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 10px;
+
+    margin: auto;
+}
+
+
+div form table {
+    margin: auto auto;
+
+}
+
+#menu {
+    position: relative;
+}

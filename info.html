@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="3 " url="index.html" /> -->
+
+    <link rel="stylesheet" href="info.css">
+
+    <title>info</title>
+</head>
+
+<body>
+    <h1>Fill out your info
+    </h1>
+    <div id="form">
+        <form method="POST" action="thankes.html">
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">First Name</label>
+                    </td>
+                    <td>
+                        <input class="input" type="text" name="fname" id="fname" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">Last Name</label>
+                    </td>
+                    <td>
+                        <input class="input" type="text" name="lname" id="lname" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">E-Mail</label>
+                    </td>
+                    <td>
+                        <input class="input" type="email" name="mail" id="mail" required />
+                    </td>
+                </tr>
+                <tr id="gen">
+                    <td rowspan="2">Gender</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="Male" required />
+                        <label for="male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="fmale" name="gender" value="Fmale" />
+                        <label for="fmale">Fmale</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">Flavor</td>
+                    <td>
+                        <input type="checkbox" id="pepperoni" name="flavor" value="Pepperoni" />
+                        <label for="pepperoni">Pepperoni</label>
+
+                        <input type="checkbox" id="cheese" name="flavor" value="Cheese Lovers" />
+                        <label for="cheese">Cheese Lovers</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="bakon" name="flavor" value="Bakon" />
+                        <label for="bakon">Bakon</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comments">Comments</label>
+                    </td>
+                    <td>
+                        <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button id="submit" type="submit">submit</button>
+                    </td>
+                    <td>
+                        <button id="reset" type="reset">reset</button>
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
